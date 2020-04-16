@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>marquee 标签</title>
+    </head>
+    <body>
+        <!--
+            marquee：跑马灯
+            格式：<marquee>内容</marquee>
+            属性：direction：设置滚动方向 left/right/up/down
+                 scrollamount：设置滚动属性，值越大，滚动得就越快
+                 loop：设置滚动次数，默认是-1，也就是无限滚动次数
+                 behavior：设置滚动类型slide滚动到边界就停止，alternate滚动到边界就弹回
+            注意点：marquee标签不是w3c推荐的标签，在w3c官方文档中也无法查询到这个标签，但是各大浏览器对这个标签的支持非常好
+        -->
+        <!--滚动方向的写法-->
+        <marquee>随便写点内容</marquee>
+        <marquee direction="right">随便写点内容</marquee>
+        <marquee direction="up">随便写点内容</marquee>
+        <marquee direction="down">随便写点内容</marquee>
+        <hr>
+        <!--设置滚动速度的写法-->
+        <marquee scrollamount="1">随便写点内容</marquee>
+        <marquee scrollamount="100">随便写点内容</marquee>
+       <hr>
+        <!--设置滚动次数的写法-->
+       <marquee loop="1">随便写点内容</marquee>
+       <marquee loop="2">随便写点内容</marquee>
+       <hr>
+       <!--设置滚动类型的写法-->
+       <marquee behavior="slide">随便写点内容</marquee>
+       <marquee alternate="alternate">随便写点内容</marquee>
+        </body>
+</html>
